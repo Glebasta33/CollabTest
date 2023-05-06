@@ -22,9 +22,9 @@ fun main() {
             val cell = cells[x + y]
             val isCellBlack = cell.isBlack
             val symbol = if (isCellBlack) "[X]" else "[O]"
-            print(" $symbol ")
+            print(" $symbol")
         }
-        println("\n")
+        print("\n")
     }
 
 }
